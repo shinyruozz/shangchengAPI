@@ -1,0 +1,20 @@
+{
+    "name": "03",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon ./src/main.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.1",
+        "koa": "^2.13.4",
+        "koa-body": "^5.0.0",
+        "koa-jwt": "^4.0.3",
+        "koa-parameter": "^3.0.1",
+        "koa-router": "^10.1.1",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.21.2"
+    }
+}
